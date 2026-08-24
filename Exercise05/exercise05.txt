@@ -1,1 +1,16 @@
-
+I choose to Sentiment Analysis Project from Hugging Face Spaces. Use this prompt
+“I really enjoyed completing this Artificial Intelligence and Machine Learning lab 
+because the activities were interesting, practical, and helped me understand how 
+generative AI works.” The sentiment analysis model classified the text as POSITIVE. 
+The model detected the positive language in the sentence and produced a confidence 
+score showing how certain it was about the classification.
+ Confidence Score: 0.95 or 95%
+5)
+6) ,7) ,8) ,9) , 10), 11) , 12), 13)
+12. Model: distilbert/distilbert-base-uncased-finetuned-sst-2-english 
+Task: Sentiment Analysis / Text Classification 
+13. I selected the DistilBERT sentiment analysis model from Hugging Face 
+and ran it in Google Collab. I gave the model the sentence “I really enjoyed 
+learning about artificial intelligence and machine learning.” The model 
+classified the sentence as POSITIVE with a high confidence score of 
+approximately 99.98%.
