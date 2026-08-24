@@ -1,1 +1,489 @@
 
+
+
+
+
+1. Model a DeepSeek
+Introduction
+Generative AI (e.g., ChatGPT, Claude, Copilot) can act as a 24/7 tutor, but it is 
+a tool, not a teacher. This report outlines practical, responsible ways to use it 
+across three core computing subjects, with concrete prompts and clear 
+guardrails.
+---
+1. Probability and Statistics
+1.1 Understanding Difficult Concepts
+Abstract ideas like Central Limit Theorem, Bayes’ Rule, and p-values often 
+confuse students. AI can:
+· Translate mathematical notation into plain English.
+· Provide real-world analogies (e.g., explaining variance as "spread of exam 
+scores").
+· Break derivations into bite-sized steps (e.g., showing how the normal 
+distribution formula arises).
+1.2 Examples and Practice Questions
+AI can generate infinite, varied problems:
+· Create dataset scenarios (e.g., "Generate 50 heights from a normal 
+distribution").
+· Produce multiple-choice quizzes on topic X with instant feedback.
+· Offer word problems that connect theory to business, sports, or science.
+1.3 Help with Problem Solving
+When stuck on a homework-style problem:
+· Ask AI to walk through the solution logic without giving the final answer first.
+· Use it to check which statistical test (t-test, chi-square, ANOVA) fits your 
+data.
+· Verify your manual calculations – paste your working and ask for error￾checking.
+1.4 Responsible Use (Avoiding Dependency)
+· Always attempt the problem yourself before asking AI.
+· Use AI as a "solution explainer" – ask it to explain the textbook’s answer, not 
+to generate a fresh one.
+· Cross-check AI’s numerical outputs with Python/R or a calculator – AI often 
+miscalculates.
+· Never submit AI-generated analysis directly; rewrite everything in your own 
+words.
+1.5 Useful Example Prompts
+Purpose Prompt
+Concept "Explain the Central Limit Theorem using a dice-rolling analogy, 
+then state the formal conditions."
+Practice "Generate 5 practice problems on confidence intervals for 
+proportions, with solutions hidden. Give hints after I answer."
+Problem-solving "Here is my dataset: [paste]. Which hypothesis test should I 
+use and why? Walk me through the first two steps."
+Verification "I calculated a p-value of 0.04 for a two-tailed test. Am I correct 
+to reject H0 at α=0.05? Explain."
+---
+2. Database Management Systems (DBMS)
+2.1 Understanding Difficult Concepts
+Normalization (1NF to BCNF), ACID properties, join types, and transaction 
+isolation levels are notoriously tricky. AI can:
+· Use library or e-commerce analogies to explain anomalies and 
+normalization.
+· Generate visual descriptions of ER diagrams in text (or Mermaid code).
+· Compare isolation levels with real-life banking examples (e.g., dirty reads = 
+seeing uncommitted withdrawals).
+2.2 Examples and Practice Questions
+AI can produce:
+· Sample schemas (e.g., "Create a university database with tables for 
+students, courses, and enrollments").
+· SQL query exercises – from basic SELECT to nested subqueries and window 
+functions.
+· Normalization drills – give an unnormalized table and ask AI to normalise it 
+stepwise.
+2.3 Help with Problem Solving
+When writing or debugging SQL:
+· Paste your erroneous query – AI can spot syntax errors, logical mistakes, or 
+performance issues.
+· Ask for query optimisation (e.g., "Rewrite this slow join using EXISTS").
+· For design problems, describe requirements and ask AI to propose a 
+normalized schema, then critique your own design.
+2.4 Responsible Use (Avoiding Dependency)
+· Write your own SQL first – use AI only to debug or explain error messages.
+· For design assignments, treat AI’s schema as a peer review, not a final 
+answer. Defend each design choice in your report.
+· Turn off AI autocomplete when practicing for exams – muscle memory 
+matters.
+· Always test AI-generated SQL against a real DBMS (e.g., SQLite, 
+PostgreSQL) to catch errors.
+2.5 Useful Example Prompts
+Purpose Prompt
+Concept "Explain the difference between 2NF and 3NF using a sales order 
+table with repeating items."
+Practice "Generate 10 SQL practice questions on self-joins and correlated 
+subqueries, with a sample table schema."
+Problem-solving "This query returns duplicates. Show me why and fix it 
+without changing the result set: [paste query]."
+Verification "I designed this schema for a hospital. Critique it for 
+normalization and redundancy: [paste tables]."
+3. Software Engineering (SE)
+3.1 Understanding Difficult Concepts
+Agile vs. Waterfall, design patterns (Singleton, Factory), SOLID principles, 
+and CI/CD pipelines are broad and abstract. AI can:
+· Provide case studies (e.g., "How would a payment system use the Strategy 
+pattern?").
+· Generate code snippets to illustrate each pattern in your chosen language.
+· Compare methodologies with pro/con lists and real-world project 
+examples.
+3.2 Examples and Practice Questions
+AI can produce:
+· User stories and acceptance criteria for a given feature.
+· UML class/sequence diagrams in Mermaid or PlantUML format.
+· Code refactoring exercises – give a messy class, ask AI to suggest 
+improvements.
+· Unit test examples (JUnit, PyTest) for a function you provide.
+3.3 Help with Problem Solving
+When designing a system:
+· Describe requirements and ask AI to suggest an architectural pattern (MVC, 
+Microservices).
+· For debugging, paste a stack trace – AI can pinpoint common root causes.
+· For team projects, use AI to generate boilerplate code (e.g., CRUD 
+endpoints) so you focus on business logic.
+3.4 Responsible Use (Avoiding Dependency)
+· Never copy-paste entire code blocks without reading and rewriting them –
+you must understand every line.
+· Use AI for brainstorming alternatives, but make the final design decision 
+yourself.
+· For group work, treat AI as a junior developer – review its output critically.
+· Practice coding without AI during personal projects to build core skills.
+3.5 Useful Example Prompts
+Purpose Prompt
+Concept "Compare the Factory and Builder patterns with a real-world 
+example in Java. When would you choose one over the other?"
+Practice "Generate a Mermaid class diagram for a ride-sharing app with 
+Driver, Rider, Trip, and Payment classes."
+Problem-solving "This Python function is O(n²). Suggest a more efficient 
+approach and explain why: [paste code]."
+Verification "I wrote these user stories for a login feature. Are they INVEST￾compliant? Rewrite any that aren't."
+---
+General Guidelines for Responsible AI Use Across All Subjects
+· The 20-Minute Rule: Spend at least 20 minutes trying to solve a problem 
+before consulting AI.
+· Cite AI Assistance: If your university allows it, acknowledge AI use in your 
+submissions.
+· Cross-Validate: AI is confidently wrong often – verify facts against your 
+lecture notes, textbooks, or official documentation.
+· Use for Revision, Not First Learning: Learn the basics from your professor 
+first; use AI to reinforce, not replace.
+· Privacy: Never paste proprietary assignment briefs, personal data, or exam 
+papers into public AI tools.
+---
+Limitations of Generative AI in University Education
+Despite its power, generative AI has critical shortcomings:
+1. Hallucinations & Errors – AI fabricates references, miscalculates statistics, 
+and invents SQL syntax. It has no built-in truth engine.
+2. Lack of Deep Reasoning – It predicts text, not logic. It cannot truly 
+"understand" complex multi-step proofs or system trade-offs.
+3. Outdated Knowledge – Models are trained on past data; they may miss 
+recent DBMS versions, new SE frameworks, or statistical best practices.
+4. Plagiarism Risks – Over-reliance can lead to unintentional academic 
+misconduct if outputs are submitted without transformation.
+5. Erosion of Fundamentals – If you use AI to generate SQL or code, you miss 
+the cognitive struggle that builds long-term memory and intuition.
+6. No Contextual Feedback – AI cannot assess your personal learning gaps, 
+exam strategy, or project constraints the way a professor or TA can.
+7. Privacy and Security – Uploading proprietary code, datasets, or 
+assignment statements may violate university policies and data protection 
+laws.
+Final Advice: Use generative AI like a calculator – powerful for routine tasks, 
+but you must know the underlying maths to use it wisely. Your degree 
+certifies your brain, not the AI’s.
+2. Model a Qwen
+# A Detailed Report on Using Generative AI for University-Level Learning
+This report outlines how university students can effectively leverage 
+generative AI to learn three core computer science and mathematics 
+subjects: Probability and Statistics, Database Management Systems (DBMS), 
+and Software Engineering. For each subject, the report details how AI can aid 
+conceptual understanding, provide practice, assist in problem-solving, and 
+be used responsibly, followed by practical example prompts. The report 
+concludes with the inherent limitations of generative AI in higher education.
+---
+## 1. Probability and Statistics
+### 1.1 Understanding Difficult Concepts
+Generative AI excels at translating abstract mathematical theories into 
+intuitive, real-world analogies. For topics like Bayes’ Theorem, p-values, or 
+the Central Limit Theorem, AI can break down the formal definitions into 
+step-by-step logical narratives. It can also adapt explanations to a student’s 
+background (e.g., explaining probability using card games, medical testing, 
+or sports analytics).
+### 1.2 Providing Examples and Practice Questions
+AI can generate infinite, customized practice problems tailored to a student’s 
+current skill level. Students can request problems involving specific 
+distributions (e.g., Binomial, Poisson, Normal) or ask the AI to generate 
+small, mock datasets to practice calculating mean, variance, or confidence 
+intervals manually or via statistical software.
+### 1.3 Helping with Problem Solving
+When a student is stuck on a complex probability word problem, AI can act 
+as a Socratic tutor. Instead of providing the final answer, it can guide the 
+student by identifying the correct distribution to use, outlining the formula, or 
+pointing out logical flaws in the student’s current approach. It can also verify 
+the *reasoning* steps of a solution, even if the student uses an external 
+calculator for the final arithmetic.
+### 1.4 Responsible Use Without Dependency
+To avoid dependency, students should always attempt the problem 
+independently first. AI should be used as a "hint generator" or a "logic 
+checker," not an answer key. Students must verify AI-generated calculations, 
+as language models can hallucinate arithmetic. The goal is to understand the 
+*why* behind the statistical method, not just to get the correct numerical 
+result.
+### 1.5 Useful Example Prompts
+* **Concept Explanation:** "Explain Bayes' Theorem to me using a real￾world example of medical disease testing. Define false positives and false 
+negatives in this context."
+* **Practice Generation:** "Generate three practice problems on hypothesis 
+testing (z-tests) with increasing difficulty. Do not provide the solutions yet. 
+Wait for me to submit my answers, then grade them and explain any 
+mistakes."
+* **Problem Solving:** "I am trying to calculate the probability of drawing 2 
+aces from a standard deck without replacement. My logic is [insert logic]. Is 
+my reasoning correct, or where did I go wrong?"
+---
+## 2. Database Management Systems (DBMS)
+### 2.1 Understanding Difficult Concepts
+DBMS involves abstract structural concepts like normalization forms (1NF, 
+2NF, 3NF, BCNF), ACID properties, and indexing mechanisms. Generative AI 
+can explain these by comparing them to familiar systems. For example, it can 
+liken database normalization to organizing a library to eliminate redundant 
+book entries, or explain B-Trees using the analogy of a dictionary’s index.
+### 2.2 Providing Examples and Practice Questions
+AI can instantly generate sample database schemas (e.g., a university 
+system with Students, Courses, and Enrollments tables) and populate them 
+with mock data. Students can ask for specific SQL challenges, such as 
+"Write a query to find the top 3 students by GPA using a window function," 
+and then practice writing the SQL before comparing it to the AI’s output.
+### 2.3 Helping with Problem Solving
+When a student’s SQL query returns an error or an unexpected result, AI can 
+debug the syntax and logic. It can also explain query execution plans, helping 
+students understand why a query is slow and how adding a specific index or 
+rewriting a `JOIN` could optimize performance.
+### 2.4 Responsible Use Without Dependency
+Students should write their own SQL queries and database schemas from 
+scratch before consulting AI. AI should be used to review the code for best 
+practices, security vulnerabilities (like SQL injection), or performance 
+bottlenecks. Students must ensure they understand every clause (e.g., 
+`GROUP BY`, `HAVING`) in an AI-suggested query rather than copying and 
+pasting it blindly.
+### 2.5 Useful Example Prompts
+* **Concept Explanation:** "Explain the difference between a LEFT JOIN and 
+an INNER JOIN using a practical example of a 'Students' table and a 
+'Course_Enrollments' table."
+* **Practice Generation:** "Provide a sample schema for a bookstore 
+database with three tables. Then, give me five SQL query challenges of 
+varying difficulty based on this schema. Provide the solutions in a collapsible 
+or hidden format so I can test myself first."
+* **Problem Solving:** "Here is my SQL query: [insert query]. It is returning 
+duplicate rows. Can you explain logically why this might be happening 
+without giving me the corrected code immediately?"
+---
+## 3. Software Engineering
+### 3.1 Understanding Difficult Concepts
+Software Engineering encompasses broad methodologies (Agile, Waterfall), 
+architectural patterns (MVC, Microservices), and design patterns (Singleton, 
+Observer). AI can summarize these concepts and provide concise, language￾specific code snippets to illustrate how a design pattern is implemented in 
+practice, making abstract architecture tangible.
+### 3.2 Providing Examples and Practice Questions
+AI can act as a product manager, generating realistic software requirements 
+documents (PRDs) or user stories for a mock project. Students can then 
+practice creating UML class diagrams, writing unit tests, or drafting API 
+endpoints based on these requirements. AI can also generate edge-case 
+scenarios for testing.
+### 3.3 Helping with Problem Solving
+AI serves as an excellent "pair programmer." It can help debug complex code, 
+suggest refactoring opportunities to improve readability, or explain how a 
+specific open-source library works. It can also review a student’s code for 
+adherence to SOLID principles and suggest structural improvements.
+### 3.4 Responsible Use Without Dependency
+Students must treat AI as a reviewer, not a primary author. When building a 
+project, the student should write the core logic themselves. If AI generates a 
+block of code, the student must be able to explain every line, its time/space 
+complexity, and its security implications. Copying AI-generated code for 
+assignments violates academic integrity and stunts the development of 
+genuine engineering intuition.
+### 3.5 Useful Example Prompts
+* **Concept Explanation:** "Explain the Observer design pattern. Provide a 
+practical example in Python where it is highly useful, and another scenario 
+where using it would be an anti-pattern."
+* **Practice Generation:** "Act as a client. Give me a brief requirements 
+document for a simple task management web application. Then, ask me to 
+design the database schema and API endpoints. Review my design and point 
+out any missing edge cases."
+* **Problem Solving:** "Review this block of code for potential security 
+vulnerabilities (like SQL injection or XSS) and adherence to SOLID principles. 
+Explain the 'why' behind each of your suggestions."
+---
+## Limitations of Using Generative AI in University Education
+While generative AI is a powerful learning aid, students and educators must 
+recognize its significant limitations:
+1. **Hallucinations and Inaccuracies:** AI models can confidently generate 
+false information, incorrect mathematical calculations, or flawed code. Blind 
+trust in AI output can lead to the reinforcement of misconceptions.
+2. **Lack of Deep Reasoning:** AI predicts the next plausible word based on 
+patterns; it does not "think" or "understand" concepts. It may fail at multi￾step logical reasoning or novel problems that deviate from its training data.
+3. **Erosion of Critical Thinking:** Over-reliance on AI for problem-solving 
+can atrophy a student’s ability to struggle productively with difficult material, 
+which is a necessary process for deep learning and cognitive development.
+4. **Academic Integrity Concerns:** Using AI to generate assignments, code, 
+or essays without proper attribution violates university honor codes and can 
+result in severe academic penalties.
+5. **Outdated or Generic Knowledge:** AI models are trained on historical 
+data and may not be aware of the latest syllabus changes, specific professor 
+preferences, or cutting-edge advancements in a field.
+6. **Privacy Risks:** Students may inadvertently paste sensitive data, 
+proprietary code, or personal information into public AI platforms, which may 
+be used to train future models.
+### Conclusion
+Generative AI is best utilized as a **supplementary tutor and reviewer**, not 
+a replacement for active learning. By setting strict personal boundaries—
+such as attempting problems first, using AI for hints rather than answers, and 
+rigorously verifying all outputs—university students can harness AI to 
+accelerate their understanding of Probability and Statistics, DBMS, and 
+Software Engineering while maintaining academic integrity and intellectual 
+growth.
+3. Model a Gork
+ 
+ **A Detailed Guide: Using Generative AI to Learn Probability and Statistics, Database 
+Management Systems, and Software Engineering**
+Generative AI tools can act as patient, always-available study partners for university 
+students. When used wisely, they help clarify difficult ideas, create unlimited practice 
+material, and support problem-solving without replacing the student’s own thinking. This 
+report explains, in practical detail, how students can apply generative AI to three core 
+subjects. For each subject it covers five areas: understanding concepts, obtaining 
+examples and practice questions, solving problems, using AI responsibly, and sample 
+prompts. The report ends with the main limitations of relying on generative AI in university 
+study.
+### 1. Probability and Statistics
+**Understanding Difficult Concepts** 
+Many students find abstract ideas such as conditional probability, the Central Limit 
+Theorem, hypothesis testing, and Bayesian reasoning hard to grasp from textbooks alone. 
+Generative AI can re-explain these topics in simpler language, use everyday analogies, and 
+break them into smaller steps. 
+For example, a student struggling with Bayes’ theorem can ask the AI to explain it through a 
+medical testing scenario (false positives and true positives) or a weather-forecast
+example. The AI can also describe what a probability density curve looks like or how a 
+sampling distribution behaves, helping the student form a mental picture before drawing 
+diagrams themselves. When a concept still feels unclear, the student can ask the AI to 
+compare two related ideas side by side (for instance, Type I versus Type II errors) so the 
+differences become sharper.
+**Providing Examples and Practice Questions** 
+AI can generate large numbers of practice problems at different difficulty levels and with 
+varied contexts. Students can request calculation exercises on expected value, binomial 
+or normal distributions, confidence intervals, or chi-square tests. They can also ask for 
+word problems set in familiar university settings (exam scores, class attendance, survey 
+results) so the mathematics feels more relevant. 
+A useful routine is to ask for five questions of increasing difficulty and to attempt them 
+without looking at solutions. Only after finishing should the student request detailed step￾by-step answers and compare them with their own work. This method builds both skill and 
+confidence.
+**Helping with Problem Solving** 
+When a student is stuck midway through a multi-step problem, generative AI can act as a 
+guide rather than an answer machine. The student describes the work already completed 
+and asks what the next logical step should be, or why a particular formula applies. 
+For instance, after writing the null and alternative hypotheses and calculating a test 
+statistic, the student might ask: “How do I decide whether to reject the null hypothesis at 
+the 5% significance level?” The AI can explain the decision rule without simply stating 
+“reject” or “do not reject.” This keeps the student actively thinking through the process.
+**Using AI Responsibly** 
+Students should treat AI as a tutor, not a shortcut. The recommended sequence is: (1) 
+attempt the problem alone using lecture notes and the textbook, (2) use AI only when 
+genuinely stuck or when checking understanding, and (3) always verify AI explanations
+against official course materials. 
+Keeping a short learning journal of concepts mastered without AI help reinforces 
+independence. Students must never submit AI-generated solutions as their own work, as 
+this violates academic integrity rules.
+**Useful Example Prompts** 
+- “Explain the Central Limit Theorem using the average heights of students randomly 
+sampled from different university faculties. Use simple language and a numerical 
+example.” 
+- “Generate six practice questions on hypothesis testing for means, increasing in difficulty. 
+Do not provide answers until I ask for them.” 
+- “I have calculated a p-value of 0.027 for a two-tailed t-test with 20 degrees of freedom. 
+Walk me through how to interpret this result step by step without giving the final 
+conclusion.” 
+- “Create a realistic university scenario that illustrates the difference between Type I and 
+Type II errors, then ask me three questions to check my understanding.” 
+- “Compare the binomial and Poisson distributions. When would a student choose one 
+over the other? Give a clear example of each.”
+### 2. Database Management Systems
+**Understanding Difficult Concepts** 
+Topics such as relational algebra, functional dependencies, normalisation (especially 
+Third Normal Form and Boyce-Codd Normal Form), transaction isolation levels, and 
+indexing strategies often feel abstract. Generative AI can unpack these ideas into clear 
+sequences and everyday analogies. 
+A student confused by normalisation can ask the AI to take a poorly designed table (for 
+example, a student-course-enrolment table with repeated data) and show, step by step, 
+how to remove anomalies by creating separate relations. The AI can explain why each 
+change is made in plain language, helping the student understand the purpose of 
+normalisation rather than merely memorising rules.
+**Providing Examples and Practice Questions** 
+AI can create sample database schemas, entity-relationship descriptions, and SQL 
+exercises of varying complexity. Students can request queries that involve joins, aggregate 
+functions, subqueries, or views. They can also ask for practice tasks such as “normalise 
+this relation to BCNF” or “write a query that finds the top three students by average grade 
+in each department.” 
+After attempting the work, students can request feedback that points out mistakes and 
+explains the correct approach. Generating many similar problems helps students 
+recognise patterns and gain fluency in SQL.
+**Helping with Problem Solving** 
+When debugging a query or designing a schema, students can paste their current SQL or 
+table structure and ask the AI to identify possible problems (missing foreign keys, 
+inefficient joins, or potential update anomalies) without rewriting the entire solution. 
+For example, a student might say: “Here is my CREATE TABLE statement for a library 
+system. Point out any design weaknesses and explain why they matter, but do not give me 
+a corrected version yet.” This develops the ability to diagnose issues independently.
+**Using AI Responsibly** 
+Students should first design schemas and write queries using paper, a whiteboard, or a 
+local database tool. Only after making a genuine attempt should they consult AI. Every AI￾suggested query must be tested in a real database management system and checked 
+against official documentation. 
+Relying solely on AI-generated code prevents the development of debugging skills that 
+employers value. Students should also practise explaining their designs in their own words 
+to confirm true understanding.
+**Useful Example Prompts** 
+- “Explain the difference between INNER JOIN, LEFT JOIN, and FULL OUTER JOIN using a 
+university database that contains Students, Courses, and Enrolments tables. Give a 
+concrete example for each.” 
+- “Generate four practice SQL problems that require GROUP BY, HAVING, and subqueries. 
+Wait for my answers before providing solutions or feedback.” 
+- “Here is my attempted schema for a university library system (list of tables and 
+attributes). Identify possible insertion, update, and deletion anomalies without rewriting 
+the schema for me.” 
+- “Describe how the ACID properties protect a bank-transfer transaction. Then ask me two 
+questions to test whether I understand each property.” 
+- “Explain indexing in simple terms. When would a student create an index on a foreign-key 
+column, and what are the trade-offs?”
+### 3. Software Engineering
+**Understanding Difficult Concepts** 
+Design patterns, software process models (waterfall, agile, DevOps), testing strategies, 
+version control concepts, and architectural styles can be difficult to visualise from theory 
+alone. Generative AI can explain these ideas through familiar analogies and concrete 
+examples. 
+A student learning the Observer pattern, for instance, can ask the AI to compare it to a 
+university notice-board or newsletter subscription system. The AI can then outline a simple 
+code structure in a language the student already knows, making the abstract pattern easier 
+to grasp before the student implements it independently
+**Providing Examples and Practice Questions** 
+AI can generate user stories, textual descriptions of class or sequence diagrams, sample 
+code skeletons, and sets of test cases. Students can request short coding exercises such 
+as implementing a stack, writing unit tests for a grade-calculation function, or applying a 
+specific design pattern to a small problem. 
+They can also ask for practice questions on topics such as requirements elicitation, risk 
+management, or code-review checklists. Attempting these tasks first, then requesting 
+feedback, builds both technical and professional skills.
+**Helping with Problem Solving** 
+When facing a design decision or a debugging challenge, students can describe the 
+requirements and their current approach, then ask the AI for guiding questions rather than 
+ready-made solutions. 
+Useful requests include: “What edge cases should I consider for this login function?” or 
+“Which design principle might improve the maintainability of this class structure?” This 
+style of interaction encourages critical thinking and keeps the student in control of the 
+design process.
+**Using AI Responsibly** 
+Students must write their own code, create their own diagrams, and make their own 
+architectural decisions. AI should be used only after an independent attempt, primarily as 
+a reviewer or explainer. All suggestions must be tested by the student and checked against 
+course coding standards and best-practice guidelines. 
+Submitting AI-generated code or designs as original work is a serious academic offence. 
+The goal is to develop the ability to solve problems without external help, which is essential 
+for professional software engineering.
+**Useful Example Prompts** 
+- “Explain the Model-View-Controller pattern using a simple online course-registration 
+system. Describe the responsibility of each component in plain language.” 
+- “Generate five practice questions on software testing (unit, integration, and system 
+testing). Do not reveal the answers until I attempt them.” 
+- “I am designing a library management system. Ask me a series of questions that help me 
+decide between a monolithic architecture and a microservices architecture.” 
+- “Review this short Python function that calculates a student’s average mark. Suggest 
+possible improvements in readability and error handling, but do not rewrite the entire 
+function.” 
+- “Explain the difference between waterfall and agile process models. Give a realistic 
+university project example of when each might be appropriate.”
+### Limitations of Using Generative AI in University Education
+Despite its usefulness, generative AI has important limitations. It can produce incorrect, 
+incomplete, or outdated information, especially on specialised or rapidly changing 
+technical topics. It may oversimplify complex ideas or invent plausible-sounding but false 
+details. Students who rely on it too heavily often develop weaker problem-solving skills and 
+reduced confidence when working without assistance. 
+Most universities treat the submission of AI-generated work as academic misconduct, and 
+detection tools continue to improve. AI cannot replace the deeper learning that comes 
+from attending lectures, reading textbooks carefully, discussing ideas with peers,
+practising in laboratories, and interacting with real tools and data sets. It also cannot 
+provide the personal feedback and mentorship that lecturers and tutors offer. 
+Used as a supportive tutor that encourages active thinking, generative AI can significantly 
+improve learning efficiency. Used as a shortcut that replaces effort, it can undermine 
+academic progress and professional readiness. The most successful students treat AI as 
+one resource among many, always keeping their own reasoning at the centre of the 
+learning process.
+In my opinion, DeepSeek produced the best re
