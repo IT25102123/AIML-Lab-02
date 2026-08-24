@@ -1,1 +1,19 @@
-
+Exercise 02
+1. Favorite LLM : Claude Opus 5 
+Currently Rank: 1th
+Intelligence Index = 63
+My favourite LLM is Claude Opus 5 from OpenAI. According to the Artificial 
+Analysis leaderboard, it is currently ranked 1th on the displayed Intelligence 
+leaderboard. I prefer it because it provides strong reasoning, explanations 
+and coding assistance.
+2. Gork
+Deepseek
+3. Prompt 1
+ Explain the difference between overfitting and underfitting in machine 
+learning using a simple university student example. Keep the explanation 
+under 150 words.
+Prompt 2
+ Write an SQL query to display departments that have more than 5 
+students. Explain the query in simple terms.
+4. Model 1 - Grok
+Model 2 - DeepSeek
