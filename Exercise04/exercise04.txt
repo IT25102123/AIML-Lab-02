@@ -1,1 +1,136 @@
-
+Activity 1 – Physics Chatbot
+• System Prompt 
+You are a helpful assistant with deep knowledge in physics.
+• User Prompt
+ Explain how black holes are formed.
+• Response 
+Black holes are formed when a massive star runs out of fuel and collapses in on 
+itself during a supernova explosion. As the star collapses, the outer layers are 
+blasted into space while the core collapses under its own gravity. If the core has a 
+mass greater than about three times that of the Sun, it will collapse into a black 
+hole.
+The core of the star becomes so dense that its gravity becomes incredibly strong, 
+causing it to collapse to a point of infinite density called a singularity. This 
+singularity is surrounded by an event horizon, which is the point of no return for 
+anything that crosses it. Once an object or light crosses the event horizon, it can 
+never escape the gravitational pull of the black hole.
+Black holes come in different sizes, with stellar-mass black holes being formed 
+from the collapse of massive stars, and supermassive black holes found at the 
+centers of galaxies, with masses millions or even billions of times that of the Sun.
+• Screenshot
+ Activity 2 – Event Planner
+• System Prompt 
+ You are an expert event planner who gives practical, creative, and budget-friendly 
+advice.
+• User Prompt 
+I am planning a birthday party for 20 university friends. Give me advice on how to 
+plan the party, including food, decorations, entertainment, budget, and a simple 
+schedule.
+• Response 
+• Planning a birthday party for 20 university friends can be a fun and 
+memorable event. Here is a step-by-step plan to help you organize a 
+successful party within a budget:
+•
+• 1. **Set a Budget:**
+• - Determine how much you are willing to spend on the party. Consi
+der expenses such as food, decorations, entertainment, and any addit
+ional costs.
+•
+• 2. **Choose a Venue:**
+• - Host the party at your home or a friend's house to save on venu
+e costs. Make sure the space can accommodate 20 guests comfortably.
+•
+• 3. **Send Invitations:**
+• - Send out digital invitations to your friends via email or socia
+l media to save on printing costs. Include the date, time, location, 
+and any special instructions.
+•
+• 4. **Food and Drinks:**
+• - Plan a budget-friendly menu such as a DIY taco bar, pasta buffe
+t, or pizza party. Consider dietary restrictions of your guests.
+• - Purchase drinks in bulk from a wholesale store or opt for BYOB 
+to save on costs.
+•
+• 5. **Decorations:**
+• - Create a festive atmosphere with inexpensive decorations such a
+s balloons, streamers, and banners. Consider using DIY decorations o
+r repurposing items you already have at home.
+•
+• 6. **Entertainment:**
+• - Create a playlist of your friend's favorite songs or ask guests 
+to suggest songs in advance. Use a music streaming service to save o
+n hiring a DJ.
+• - Plan fun activities such as party games, a photo booth with pro
+ps, or a movie marathon.
+•
+• 7. **Schedule:**
+• - Plan a timeline for the party to ensure everything runs smoothl
+y.
+• - Example Schedule:
+• - 7:00 PM - Guests arrive, mingle, and enjoy appetizers
+• - 8:00 PM - Serve dinner or main course
+• - 9:00 PM - Cake cutting and singing Happy Birthday
+• - 9:30 PM - Entertainment and activities
+• - 11:00 PM - Thank guests for coming and hand out party favors
+•
+• 8. **Party Favors:**
+• - Consider giving small, budget-friendly party favors such as per
+sonalized cookies, candies, or homemade treats as a token of appreci
+ation for your guests.
+•
+• 9. **Cleanup:**
+• - Have trash bags and recycling bins readily available for easy c
+leanup after the party. Enlist the help of friends to assist with cl
+eaning up.
+•
+• 10. **Follow-Up:**
+• - Send a thank you message to your guests for attending the part
+y and share any photos or memories from the event.
+•
+• By following this step-by-step plan, you can organize a successful b
+irthday party for your university friends within your budget. Rememb
+er to have fun and enjoy the celebration with your friends!
+• Screenshot 
+Activity 3 – Unique Prompt
+• System Prompt 
+ You are an expert database tutor who explains database concepts using simple 
+language and practical examples.
+• User Prompt 
+ Explain primary keys and foreign keys using a simple university student database 
+example.
+• Response 
+• Sure! Let's imagine we have two tables in a university database: "St
+udents" and "Courses."
+•
+• 1. Primary Key:
+• - A primary key is a unique identifier for each record in a table. I
+t uniquely identifies each row in the table.
+• - In the "Students" table, the student ID can be a primary key becau
+se each student has a unique ID.
+• - For example, if we have the following students in the "Students" t
+able:
+•
+• | Student ID | Name | Age | 
+• |------------|--------|-----|
+• | 1 | Alice | 20 |
+• | 2 | Bob | 21 |
+• | 3 | Charlie| 19 |
+•
+• Here, the "Student ID" column serves as a primary key since each stu
+dent has a unique ID.
+•
+• 2. Foreign Key:
+• - A foreign key is a column or a set of columns in a table that esta
+blishes a link between two tables.
+• - In the "Courses" table, we can have a column called "Student ID" t
+hat references the "Student ID" column in the "Students" table.
+• - For example, in the "Courses" table, we might have:
+•
+• | Course ID | Course Name | Student ID |
+• |-----------|-------------|------------|
+• | 1 | Math 101 | 1 |
+• | 2 | English 101 | 2 |
+• | 3 | Science 101 | 1 |
+•
+• Here, the "Student ID" column in the "Courses" table is a foreign ke
+y that relates back to the "Student ID" column in the "Students" tab
